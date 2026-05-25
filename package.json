@@ -5,7 +5,8 @@
     "dev": "next dev --turbopack -p 4000",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@kapso/whatsapp-cloud-api": "^0.1.0",
